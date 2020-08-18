@@ -1,0 +1,29 @@
+
+const CALLBAR_A_ADDRESS = process.env['CALLBAR_A_ADDRESS']
+const ACCOUNT_A_NAME = process.env['ACCOUNT_A_NAME']
+const USERNAME_A = process.env['USERNAME_A']
+const PASSWORD_A = process.env['PASSWORD_A']
+const TALKDESK_LOGIN_A_ADDRESS =  process.env['TALKDESK_LOGIN_A_ADDRESS']
+
+const CALLBAR_B_ADDRESS = process.env['CALLBAR_B_ADDRESS']
+const ACCOUNT_B_NAME = process.env['ACCOUNT_B_NAME']
+const USERNAME_B = process.env['USERNAME_B']
+const PASSWORD_B = process.env['PASSWORD_B']
+const TALKDESK_LOGIN_B_ADDRESS = process.env['TALKDESK_LOGIN_B_ADDRESS']
+
+const DIAL_PHONE_NUMBER = process.env['DIAL_PHONE_NUMBER']
+
+
+module.exports = {
+  CALLBAR_A_ADDRESS,
+  ACCOUNT_A_NAME,
+  USERNAME_A,
+  PASSWORD_A,
+  TALKDESK_LOGIN_A_ADDRESS,
+  CALLBAR_B_ADDRESS,
+  ACCOUNT_B_NAME,
+  USERNAME_B,
+  PASSWORD_B,
+  TALKDESK_LOGIN_B_ADDRESS,
+  DIAL_PHONE_NUMBER
+}
