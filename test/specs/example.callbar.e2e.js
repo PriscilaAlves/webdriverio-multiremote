@@ -1,4 +1,6 @@
 const CallbarPage = require('../pageobjects/callbar.page');
+const dotenv = require('dotenv');
+dotenv.config();
 const ENV = require('../constants/env')
 
 describe('Callbar', () => {
